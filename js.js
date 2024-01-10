@@ -74,7 +74,7 @@ let numbers1=[1,6,2,7,3,16,4,5]
 //     for (let i = 0; i < this.length; i++) {
 //         if (callback(this[i],i,this)) {
 //             newArr.push(this[i])
-//         }
+//         }a
 //     }
 //     return newArr
 // }
@@ -116,3 +116,22 @@ let numbers1=[1,6,2,7,3,16,4,5]
 //     return result;
 //   };
 // console.log(numbers1.joinCustom("-"));
+
+
+
+
+
+// Array.prototype.reduceCustom=function (callback,res) {
+//     for (let i = 0; i < this.length; i++) {
+//         res=callback(res,this[i],i,this)
+
+//     }
+//     return res
+// }
+// let number6=[1,23,45,6].reduceCustom(
+//     (res,item,i,arr)=>{
+//     return res + item
+//     },
+//     0
+// );
+// console.log(number6);
